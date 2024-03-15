@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import { FaRegBookmark } from "react-icons/fa";
 
-const Blog = ({ blog }) => {
+const Blog = ({ blog, handleAddBookmark }) => {
     return (
         <div>
             <img src={blog.cover_image} className='rounded-lg min-w-full my-10' alt={`Cover Picture of the title: ${blog.title}`} />
@@ -17,9 +17,9 @@ const Blog = ({ blog }) => {
 
                 <div className="flex gap-2 items-center">
                     <h2>{blog.reading_time} min read</h2>
-                    <button><FaRegBookmark 
-                    className='h-10 text-red-500'
-                    onClick={}
+                    <button><FaRegBookmark
+                        className='h-10 text-red-500'
+                        onClick={()=>handleAddBookmark(blog)}
                     ></FaRegBookmark></button>
                 </div>
             </div>

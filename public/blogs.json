@@ -1,10 +1,10 @@
 [
     {
         "id": 1,
-        "cover_image": "https://source.unsplash.com/random/1600x900/?science,technology",
+        "cover_image": "../src/assets/images/1.jpg",
         "title": "The Enigma of Time Travel",
         "author": "Maxwell Carter",
-        "author_image": "https://source.unsplash.com/300x300/?portrait",
+        "author_image": "../src/assets/images/boy1.png",
         "posted_date": "2024-03-15",
         "reading_time": 12,
         "hashtags": [
@@ -14,10 +14,10 @@
     },
     {
         "id": 2,
-        "cover_image": "https://source.unsplash.com/random/1600x900/?food,health",
+        "cover_image": "../src/assets/images/2.jpg",
         "title": "Gastronomy Adventures",
         "author": "Isabella Martinez",
-        "author_image": "https://source.unsplash.com/300x300/?female",
+        "author_image": "../src/assets/images/boy2.png",
         "posted_date": "2024-03-14",
         "reading_time": 8,
         "hashtags": [
@@ -27,10 +27,10 @@
     },
     {
         "id": 3,
-        "cover_image": "https://source.unsplash.com/random/1600x900/?mindfulness",
+        "cover_image": "../src/assets/images/3.jpg",
         "title": "Zen and the Art of Mindfulness",
         "author": "Ethan Johnson",
-        "author_image": "https://source.unsplash.com/300x300/?male",
+        "author_image": "../src/assets/images/boy3.png",
         "posted_date": "2024-03-13",
         "reading_time": 10,
         "hashtags": [
@@ -40,10 +40,10 @@
     },
     {
         "id": 4,
-        "cover_image": "https://source.unsplash.com/random/1600x900/?astronomy,space",
+        "cover_image": "../src/assets/images/4.jpg",
         "title": "Exploring the Cosmos",
         "author": "Sophia Lee",
-        "author_image": "https://source.unsplash.com/300x300/?astronaut",
+        "author_image": "../src/assets/images/girl1.jpg",
         "posted_date": "2024-03-12",
         "reading_time": 15,
         "hashtags": [
@@ -53,10 +53,10 @@
     },
     {
         "id": 5,
-        "cover_image": "https://source.unsplash.com/random/1600x900/?writing,literature",
+        "cover_image": "../src/assets/images/5.jpg",
         "title": "The Art of Fiction Writing",
         "author": "Nathan Reynolds",
-        "author_image": "https://source.unsplash.com/300x300/?writer",
+        "author_image": "../src/assets/images/girl2.jpg",
         "posted_date": "2024-03-11",
         "reading_time": 20,
         "hashtags": [
