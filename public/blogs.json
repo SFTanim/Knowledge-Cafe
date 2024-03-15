@@ -14,7 +14,7 @@
     },
     {
         "id": 2,
-        "cover_image": "../src/assets/images/2.jpg",
+        "cover_image": "../src/assets/images/2.png",
         "title": "Gastronomy Adventures",
         "author": "Isabella Martinez",
         "author_image": "../src/assets/images/boy2.png",
@@ -27,7 +27,7 @@
     },
     {
         "id": 3,
-        "cover_image": "../src/assets/images/3.jpg",
+        "cover_image": "../src/assets/images/3.png",
         "title": "Zen and the Art of Mindfulness",
         "author": "Ethan Johnson",
         "author_image": "../src/assets/images/boy3.png",

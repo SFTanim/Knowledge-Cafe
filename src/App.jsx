@@ -8,11 +8,22 @@ import Header from './components/Header/Header'
 function App() {
 
   const [bookmarks, setBookmarks] = useState([]);
+  const [readingTime, setReadingTime] = useState(0);
 
   const handleAddBookmark = blog => {
-    console.log('Bookmark Adding Soon', blog)
+    const newBookmarks = [...bookmarks, blog];
+    setBookmarks(newBookmarks);
   }
 
+  const handleMarkAsRead = (id, time) => {
+    // console.log('Reading Done', time);
+    // console.log('Reading Done', id);
+    const newReadingTime = readingTime + time;
+    setReadingTime(newReadingTime);
+
+    const remainingBookmarks = bookmarks.filter(bookmark => bookmark.id !== id);
+    setBookmarks(remainingBookmarks);
+  }
 
 
   return (
@@ -21,8 +32,14 @@ function App() {
       <Header></Header>
 
       <div className='md:flex'>
-        <Bolgs handleAddBookmark={handleAddBookmark}></Bolgs>
-        <Bookmarks></Bookmarks>
+        <Bolgs
+          handleAddBookmark={handleAddBookmark}
+          handleMarkAsRead={handleMarkAsRead}
+        ></Bolgs>
+        <Bookmarks
+          bookmarks={bookmarks}
+          readingTime={readingTime}
+        ></Bookmarks>
       </div>
     </section>
   )
