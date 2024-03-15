@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "cover_image": "https://source.unsplash.com/random/1600x900/?science,technology",
+        "title": "The Enigma of Time Travel",
+        "author": "Maxwell Carter",
+        "author_image": "https://source.unsplash.com/300x300/?portrait",
+        "posted_date": "2024-03-15",
+        "reading_time": 12,
+        "hashtags": [
+            "sciencefiction",
+            "temporal"
+        ]
+    },
+    {
+        "id": 2,
+        "cover_image": "https://source.unsplash.com/random/1600x900/?food,health",
+        "title": "Gastronomy Adventures",
+        "author": "Isabella Martinez",
+        "author_image": "https://source.unsplash.com/300x300/?female",
+        "posted_date": "2024-03-14",
+        "reading_time": 8,
+        "hashtags": [
+            "foodie",
+            "culinary"
+        ]
+    },
+    {
+        "id": 3,
+        "cover_image": "https://source.unsplash.com/random/1600x900/?mindfulness",
+        "title": "Zen and the Art of Mindfulness",
+        "author": "Ethan Johnson",
+        "author_image": "https://source.unsplash.com/300x300/?male",
+        "posted_date": "2024-03-13",
+        "reading_time": 10,
+        "hashtags": [
+            "mindfulness",
+            "meditation"
+        ]
+    },
+    {
+        "id": 4,
+        "cover_image": "https://source.unsplash.com/random/1600x900/?astronomy,space",
+        "title": "Exploring the Cosmos",
+        "author": "Sophia Lee",
+        "author_image": "https://source.unsplash.com/300x300/?astronaut",
+        "posted_date": "2024-03-12",
+        "reading_time": 15,
+        "hashtags": [
+            "astronomy",
+            "space"
+        ]
+    },
+    {
+        "id": 5,
+        "cover_image": "https://source.unsplash.com/random/1600x900/?writing,literature",
+        "title": "The Art of Fiction Writing",
+        "author": "Nathan Reynolds",
+        "author_image": "https://source.unsplash.com/300x300/?writer",
+        "posted_date": "2024-03-11",
+        "reading_time": 20,
+        "hashtags": [
+            "writing",
+            "creativity"
+        ]
+    }
+]
